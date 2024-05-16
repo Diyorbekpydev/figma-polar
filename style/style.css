@@ -2,17 +2,18 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+
   }
 
 header{
-  width: 1600px;
-  height: 862px;
-  background-color: #F2CEDA ;
+  background-color: #f2ceda8f ;
   
 }
 
 nav{
+  display: flex;
   justify-content: space-between;
+  align-items: center;
   
 }
 
@@ -20,26 +21,35 @@ nav img{
   width: 79px;
   height: 79px;
   margin-left: 245px;
+  
 }
 
 ul{
   display: flex;
-  margin-left: 590px;
+}
 
+
+a{
+  color: black;
+  text-decoration: none;
 }
 
 .home{
   color: red;
-  /* opacity: 100%; */
+  
+
 
 }
 
+li a{
+  list-style: none;
+}
+
 ul li{
-  margin-left: 30px;
-  margin-top: -50px;
+  margin-left: 20px;
   list-style: none;
   font-size: bold;
-  /* opacity: 60%; */
+
 }
 
 
@@ -48,8 +58,459 @@ nav  button{
   height: 49px;
   border: none;
   border-radius: 5px;
-  margin-left: 1205px;
+  margin-right: 200px;
   background-color: #DC0048;
   color: white;
-  z-index: 1;
+  
+}
+
+/* sections */
+
+section{
+  width: 1600px;
+  height: 862px;
+  background-color: #f2ceda8f ;
+  
+}
+
+
+.text-title{
+  margin-left: 200px;
+  margin-top: 50px;
+  display: inline;
+
+}
+
+.text-title h3{
+  margin-top: 100px;
+  margin-left: 200px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-title span{
+  color: #DC0048;
+}
+
+
+.text-title h1{
+  margin-left: 200px;
+  font-size: 57.33px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.text-title p{
+  margin-top: 30px ;
+  margin-left: 200px;
+
+}
+
+.text-title button{
+  width: 165px;
+  height: 49px;
+  margin-top: 30px;
+  margin-left: 200px;
+  border: none;
+  border-radius: 5px;
+  background-color: #DC0048;
+  color: white;
+
+}
+
+.ice-img{
+  display: inline;
+  justify-content: space-between;
+
+
+}
+
+
+.ice-img img{
+  margin-top: -480px;
+}
+
+#ice-cream{
+  margin-left: 850px;
+}
+
+#ilk-effect{
+  margin-left: 700px;
+  margin-bottom: 100px;
+
+}
+
+
+
+/* box */
+
+
+.box{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+.box div{
+  width: 250px;
+  height: 200px;
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.326);
+}
+
+
+
+
+
+
+
+/* brown ice cream */
+
+#oatema{
+  padding-top: 200px;
+ } 
+
+
+
+.brice-cream{
+  height: 544.5px;
+  margin-top: 50px;
+  background-color: #f2ceda8f;
+}
+
+.brown-sugar button{
+  width: 165px;
+  height: 49px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #DC0048;
+  color: white;
+
+}
+
+
+.brown-sugar{
+  margin-left: 200px;
+  justify-content: space-between;
+}
+
+.brown-sugar h3{
+  font-size: 44.2px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-between;
+
+}
+
+
+.brice-cream img{
+  margin-left: 700px;
+  margin-top: -450px;
+}
+
+#pink-shadow{
+  margin-left: 860px;
+  margin-bottom: 100px;
+}
+
+
+
+
+/* Product */
+
+.Products{
+  background-color: white;
+}
+
+.navbar{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+.navbar ul{
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.ice1{
+  margin-left: 150px;
+}
+.elements1{
+  margin-left: 700px;
+  margin-top: -370px;
+}
+
+
+.elements1 h3{
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+
+
+
+.elements1 button{
+  width: 165px;
+  height: 49px;
+  border: none;
+  border-radius: 5px;
+  background-color: #DC0048;
+  color: white;
+
+}
+
+
+/* ice2 */
+
+.ice2{
+  margin-left: 150px;
+  margin-top: 300px;
+}
+
+.ice2 img{
+  margin-left: 700px;
+  margin-top: -400px;
+}
+.elements2{
+  margin-left: 20px;
+  margin-top: -150px;
+  width: 500px;
+  text-align: right;
+}
+
+
+.elements2 h3{
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+.elements2 button{
+  width: 165px;
+  height: 49px;
+  border: none;
+  border-radius: 5px;
+  background-color: #DC0048;
+  color: white;
+
+}
+
+
+
+/* ice4 */
+
+
+#ice4{
+  margin-top: -260px;
+  margin-left: 850px;
+}
+
+.elements4{
+  margin-left: 200px;
+  margin-top: 300px;
+  /* width: 500px; */
+  
+
+}
+
+.box-img-text{
+  display: flex;
+  
+}
+
+#adaline{
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+h5{
+  font-weight: lighter;
+}
+
+.ellipses{
+  margin-top: -160px;
+  margin-left: 200px;
+  /* justify-content: space-between; */
+  
+}
+
+#drasm1{
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+#drasm2{
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+
+
+#drasm3{
+  margin-left:10px;
+
+}
+
+#right-arrow{
+  margin-top: -25px;
+  margin-left: 10px;
+}
+
+
+/* Simple Way To Order Your Food */
+
+
+
+.simple{
+  background-color:#f2ceda8f ;
+  height: 660px;
+  margin-top: 900px;
+}
+
+
+.simple-box{
+  margin-left: 300px;
+  margin-top:  50px;
+  padding-top: 70px;
+}
+
+.elemt-box{
+  margin-left: 500px;
+  margin-top: -500px;
+}
+
+.elemt-box h3{
+  font-size: 44px;
+  font-weight: bold;
+}
+
+
+.simple-box ul{
+  display: block;
+  margin-left: 480px;
+  margin-top: 50px;
+}
+
+
+.simple-box ul li{
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 10px;
+  
+}
+
+.store{
+  margin-left: 485px;
+}
+
+#appstore{
+  padding-top: 10px;
+}
+
+
+#form-search{
+  text-align: center;
+  font-size: 44px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  height: 545px;
+
+  margin-top: 300px;
+}
+
+#search{
+  width: 300px;
+  height: 50px;
+  border-color: gainsboro;
+}
+
+#send{
+  width: 100px;
+  height: 50px;
+  background-color: #DC0048;
+  color: white;
+  border: none;
+  margin-left: -20px
+}
+
+
+footer{
+  margin-top: 600px;
+  background-color: black;
+  height: 381px;
+}
+
+.footer-text{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 300px;
+  padding-top: 100px;
+}
+
+.ul-footer{
+  display: block;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 600px;
+  margin-top: -120px;
+
+}
+
+.ul2-footer{
+
+  display: block;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 800px;
+  margin-top: -120px;
+
+}
+
+.footur-from{
+  margin-top: -150px;
+}
+
+.footur-from label{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 1000px;
+}
+
+#email{
+  width: 300px;
+  height: 50px;
+  border-color: #DC0048;
+  color: white;
+  margin-left: 1000px;
+  padding-top: -900px;
+}
+
+#Subscribe{
+  width: 100px;
+  height: 50px;
+  background-color: #DC0048;
+  color: white;
+  border: none;
+
+}
+
+.pay{
+  margin-top: 10px;
+  margin-left: 1000px;
 }
